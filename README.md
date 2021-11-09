@@ -1,3 +1,9 @@
-# How to Access Database with Kotlin
-An article on how to use JDBC to establish database 
-connection and execute SQL queries.  
+# How to Access Databases with Kotlin using JDBC: The Fundamentals
+
+
+This article is an introduction  to database interaction with Kotlin.
+Roughly, it tries to answer the following questions,
+1. What is JDBC? And how to use it with Kotlin? 
+2. What is a JDBC URL? 
+3. How to establish a connection with a database and execute SQL queries. 
+4. What is connection pooling and how to implement it with HikariCP?
