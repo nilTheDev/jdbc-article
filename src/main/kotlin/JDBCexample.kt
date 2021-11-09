@@ -3,7 +3,7 @@ import java.sql.DriverManager
 // the model class
 data class User(val id: Int, val name: String)
 
-fun main(){
+fun main() {
 
     val jdbcUrl = "jdbc:postgresql://localhost:5432/example"
 
@@ -23,7 +23,7 @@ fun main(){
     // an empty list for holding the results
     val users = mutableListOf<User>()
 
-    while(result.next()){
+    while (result.next()) {
 
         // getting the value of the id column
         val id = result.getInt("id")
