@@ -1,5 +1,6 @@
 # How to Access Databases with Kotlin using JDBC: The Fundamentals
 
+The article can be found [here](https://levelup.gitconnected.com/how-to-access-database-with-kotlin-6b86f6680cd7 "How to Access Databases with Kotlin using JDBC: The Fundamentals")
 
 This article is an introduction  to database interaction with Kotlin.
 Roughly, it tries to answer the following questions,
