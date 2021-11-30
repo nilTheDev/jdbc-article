@@ -13,8 +13,6 @@ fun main(){
     // set the password
     dataSource.password = "postgres"
 
-    println(dataSource.maximumPoolSize)
-
     // get a connection
     val connection = dataSource.connection
 
